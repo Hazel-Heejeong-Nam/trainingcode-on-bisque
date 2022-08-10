@@ -1,0 +1,1 @@
+{"Name": "TrainSegmentation", "Author": "Hazel", "Description": "This module trains model for brain segmentation", "Inputs": {"Raw CT Images": "image", "Ground Truth Images": "image"}, "Outputs": {"Output Image": "image"}}

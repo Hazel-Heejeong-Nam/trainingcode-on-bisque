@@ -1,0 +1,3 @@
+[console_scripts]
+bqmod = bqmodule:bqmod
+

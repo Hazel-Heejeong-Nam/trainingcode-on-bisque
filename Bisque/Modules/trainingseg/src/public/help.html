@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Brain Segmentation Training Code</title>
+</head>
+<body>
+    <h1>I. Input</h1>
+    <h2>Match the number</h2>
+    <p>For each subjects, we should have 2 files; One is raw scan and the other is segmented image(ground truth).<br>
+        If the number of files between <b>Scans</b> and <b>Segmentation</b> are different, Bisque will throw an error.</p>
+
+    <h2>Naming the files</h2>
+    <p> For the convenience of users, we highly recommend you to put subject's information in your file names like:</p>
+    <p><b>Scans :</b> {     SUBJECT INFO     }.nii.gz</p>
+    <p><b>Segmentation :</b> Final_{     SUBJECT INFO     }.nii.gz</p>
+    <br>
+    <p>If you did not put <b>Final_</b> in front of <b>Segmentations</b> files, module cannot read your files.</p>
+    <br>
+    <br>
+    <h1>II. Output</h1>
+    <p>When training is done, these are what you are going to get</p>
+</body>
+</html>
+

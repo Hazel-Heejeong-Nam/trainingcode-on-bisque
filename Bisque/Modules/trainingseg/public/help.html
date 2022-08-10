@@ -1,0 +1,30 @@
+<h1>Brain Segmentation Training Code</h1>
+<h2>I. Input</h2>
+<h3>Match the number</h3>
+<p>For each subjects, we should have 2 files; One is raw scan and the other is segmented image(ground truth).
+If the number of files between <strong>Raw Scans</strong> and <strong>Ground truth images</strong> are different, Bisque will throw an error.</p>
+<h3>Naming the files</h3>
+<p>For the convenience of users, we highly recommend you to put subject's information in your file names like:</p>
+<blockquote>
+<p><strong>Raw Scans</strong> : {  SUBJECT INFO   }.nii.gz
+<strong>Ground truth images(Segmented)</strong> : Final_{   SUBJECT INFO   }.nii.gz</p>
+</blockquote>
+<p>If you did not put <strong>Final_</strong> in front of <strong>your ground truth</strong> files, module cannot read your files.</p>
+<h2>II. Output</h2>
+<p>When training is done, these are what you are going to get:</p>
+<blockquote>
+<ol>
+<li>
+<p>Trained models(.pt)</p>
+</li>
+<li>
+<p>Dice Scores(.txt)</p>
+</li>
+<li>
+<p>Accuracy(.txt) </p>
+</li>
+<li>
+<p>Output Image (just to notify training is done)</p>
+</li>
+</ol>
+</blockquote>

@@ -1,0 +1,9 @@
+README.md
+bqmodule.py
+setup.py
+bqmod.egg-info/PKG-INFO
+bqmod.egg-info/SOURCES.txt
+bqmod.egg-info/dependency_links.txt
+bqmod.egg-info/entry_points.txt
+bqmod.egg-info/requires.txt
+bqmod.egg-info/top_level.txt
